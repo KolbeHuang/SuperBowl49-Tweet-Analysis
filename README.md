@@ -2,7 +2,7 @@
 A pipelie of complete analysis is performed over the tweets during th 49th Super Bowl with specific hashtags, including fan classification and tweet-related statistic prediction.
 
 ## Basic Statistics
-A few basic analysis of the tweets were conducted. For example, the average number of tweets per hour for #gohawks is 296.70526315789476 spanning 570 hours, and that for #gopatriots is 53.31292517006803 spanning 441 hours. The difference between the tweet numbers of different fans indicates the potential imbalance inside the data for further analysis.
+A few basic analysis of the tweets were conducted. For example, the average number of tweets per hour for #gohawks is 296.7 spanning 570 hours, and that for #gopatriots is 53.3 spanning 441 hours. The difference between the tweet numbers of different fans indicates the potential imbalance inside the data for further analysis.
 
 ## Dataset
 The source data can be found [here](https://ucla.app.box.com/s/24oxnhsoj6kpxhl6gyvuck25i3s4426d). The tweet file contains one tweet in each line and tweets are sorted with respect to their posting time. Each tweet is a JSON string that can be loaded in Python as a dictionary. For the following analysis, I only used data from the files `tweets_#gopatriots.txt` and `tweets_#gohawks.txt`.
